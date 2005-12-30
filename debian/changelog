@@ -1,0 +1,23 @@
+x11proto-kb (1.0.2-1) UNRELEASED; urgency=low
+
+  * First release to Debian
+
+ -- David Nusinow <dnusinow@debian.org>  Fri, 30 Dec 2005 14:36:09 -0500
+
+x11proto-kb (1.0+cvs.20050817-1) breezy; urgency=low
+
+  * Update to today's CVS, which includes DeviceUnwrap functions.
+
+ -- Daniel Stone <daniel.stone@ubuntu.com>  Wed, 17 Aug 2005 23:02:54 +1000
+
+x11proto-kb (1.0-2) breezy; urgency=low
+
+  * Add Conflicts/Replaces on libxkbfile-dev.
+
+ -- Daniel Stone <daniel.stone@ubuntu.com>  Wed, 25 May 2005 11:53:28 +1000
+
+x11proto-kb (1.0-1) breezy; urgency=low
+
+  * First x11proto-kb release.
+
+ -- Daniel Stone <daniel.stone@ubuntu.com>  Mon, 16 May 2005 22:10:17 +1000
