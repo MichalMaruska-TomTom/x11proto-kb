@@ -2,9 +2,11 @@ Source: x11proto-kb
 Section: x11
 Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Uploaders: David Nusinow <dnusinow@debian.org>, Branden Robinson <branden@debian.org>, Fabio M. Di Nitto <fabbione@fabbione.net>, Andres Salomon <dilinger@debian.org>
+Uploaders: David Nusinow <dnusinow@debian.org>, Branden Robinson <branden@debian.org>, Andres Salomon <dilinger@debian.org>
 Build-Depends: debhelper (>= 4.0.0)
 Standards-Version: 3.7.2
+XS-Vcs-Git: git://git.debian.org/git/pkg-xorg/proto/x11proto-kb
+XS-Vcs-Browser: http://git.debian.org/?p=pkg-xorg/proto/x11proto-kb.git
 
 Package: x11proto-kb-dev
 Architecture: all
@@ -13,14 +15,15 @@ Pre-Depends: x11-common (>= 1:7.0.0)
 Conflicts: libxkbfile-dev (<< 6.8.2-20)
 Replaces: libxkbfile-dev (<< 6.8.2-20)
 Description: X11 XKB extension wire protocol
- This package provides the wire protocol for the XKEYBOARD extension, used to
- control all manner of options related to keyboard handling and layout in
- particular.  It does not control the addition/enabling/disabling of keyboards;
+ This package provides development headers describing the wire protocol
+ for the XKEYBOARD extension, used to control all manner of options
+ related to keyboard handling and layout in particular.
+ It does not control the addition/enabling/disabling of keyboards;
  this is done with the XINPUT extension.
  .
  More information about X.Org can be found at:
+ <URL:http://www.X.org>
  <URL:http://xorg.freedesktop.org>
  <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
  .
- This module can be found as the module 'proto/KB' at
- :pserver:anoncvs@cvs.freedesktop.org:/cvs/xorg
+ This package is built from the X.org kbproto proto module.
