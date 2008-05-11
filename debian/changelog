@@ -1,9 +1,15 @@
 x11proto-kb (1.0.3-3) UNRELEASED; urgency=low
 
+  [ Brice Goglin ]
   * Update the long description.
   * Add URL in debian/copyright.
-  * Add XS-Vcs-* to debian/control.
+  * Add Vcs-* to debian/control.
   * Remove Fabio from Uploaders, with his permission.
+
+  [ Julien Cristau ]
+  * Remove Branden from Uploaders with his permission.
+  * Add myself to Uploaders.
+  * Bump Standards-Version to 3.7.3.
 
  -- Brice Goglin <bgoglin@debian.org>  Tue, 14 Aug 2007 00:10:19 +0200
 
