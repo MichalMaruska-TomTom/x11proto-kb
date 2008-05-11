@@ -1,4 +1,4 @@
-x11proto-kb (1.0.3-3) UNRELEASED; urgency=low
+x11proto-kb (1.0.3-3) unstable; urgency=low
 
   [ Brice Goglin ]
   * Update the long description.
@@ -11,7 +11,7 @@ x11proto-kb (1.0.3-3) UNRELEASED; urgency=low
   * Add myself to Uploaders.
   * Bump Standards-Version to 3.7.3.
 
- -- Brice Goglin <bgoglin@debian.org>  Tue, 14 Aug 2007 00:10:19 +0200
+ -- Julien Cristau <jcristau@debian.org>  Sun, 11 May 2008 19:05:39 +0200
 
 x11proto-kb (1.0.3-2) unstable; urgency=low
 
