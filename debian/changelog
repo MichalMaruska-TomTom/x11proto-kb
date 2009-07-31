@@ -1,3 +1,9 @@
+x11proto-kb (1.0.3-4) UNRELEASED; urgency=low
+
+  * Add README.source from xsfbs. Bump Standards-Version to 3.8.1.
+
+ -- Timo Aaltonen <tjaalton@ubuntu.com>  Fri, 31 Jul 2009 14:37:29 +0300
+
 x11proto-kb (1.0.3-3) unstable; urgency=low
 
   [ Brice Goglin ]
