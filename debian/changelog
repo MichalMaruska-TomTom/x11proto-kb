@@ -7,6 +7,7 @@ x11proto-kb (1.0.4-1) UNRELEASED; urgency=low
     This was needed for upgrades from sarge.
   * Parse space-separated DEB_BUILD_OPTIONS, and handle parallel=N.
   * Run autoreconf on build. Add build-deps on automake and xutils-dev.
+  * Bump the build-dep on xutils-dev (>= 1:7.5~1).
 
  -- Timo Aaltonen <tjaalton@ubuntu.com>  Fri, 31 Jul 2009 14:37:29 +0300
 
