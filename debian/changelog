@@ -6,6 +6,7 @@ x11proto-kb (1.0.4-1) UNRELEASED; urgency=low
   * Drop Conflicts/Replaces on libxkbfile-dev and Pre-Depends on x11-common.
     This was needed for upgrades from sarge.
   * Parse space-separated DEB_BUILD_OPTIONS, and handle parallel=N.
+  * Run autoreconf on build. Add build-deps on automake and xutils-dev.
 
  -- Timo Aaltonen <tjaalton@ubuntu.com>  Fri, 31 Jul 2009 14:37:29 +0300
 
