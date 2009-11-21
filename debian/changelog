@@ -1,5 +1,6 @@
-x11proto-kb (1.0.3-4) UNRELEASED; urgency=low
+x11proto-kb (1.0.4-1) UNRELEASED; urgency=low
 
+  * New upstream release.
   * Add README.source from xsfbs. Bump Standards-Version to 3.8.3.
   * Bump debhelper compat level to 5.
 
