@@ -1,6 +1,6 @@
 x11proto-kb (1.0.4-1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release (closes: #556006).
   * Add README.source from xsfbs. Bump Standards-Version to 3.8.3.
   * Bump debhelper compat level to 5.
   * Drop Conflicts/Replaces on libxkbfile-dev and Pre-Depends on x11-common.
