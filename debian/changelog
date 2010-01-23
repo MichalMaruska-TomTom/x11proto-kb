@@ -1,3 +1,9 @@
+x11proto-kb (1.0.4-2) UNRELEASED; urgency=low
+
+  * Remove myself from Uploaders.
+
+ -- Julien Cristau <jcristau@debian.org>  Sat, 23 Jan 2010 12:19:14 +0100
+
 x11proto-kb (1.0.4-1) unstable; urgency=low
 
   [ Timo Aaltonen ]
