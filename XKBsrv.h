@@ -793,6 +793,7 @@ extern Bool AccessXFilterReleaseEvent(
     int				/* count */
 );
 
+/* mmc: see comment in ../../programs/Xserver/xkb/xkbAccessX.c */
 extern void AccessXCancelRepeatKey(
     XkbSrvInfoPtr	/* xkbi */,
     KeyCode		/* key */
