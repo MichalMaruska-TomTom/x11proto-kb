@@ -1,4 +1,4 @@
-x11proto-kb (1.0.5-1) UNRELEASED; urgency=low
+x11proto-kb (1.0.5-1) unstable; urgency=low
 
   [ Julien Cristau ]
   * Remove myself from Uploaders.
@@ -14,7 +14,7 @@ x11proto-kb (1.0.5-1) UNRELEASED; urgency=low
   * No longer pass --disable-shared, this option is gone.
   * Add myself to Uploaders.
 
- -- Robert Hooker <sarvatt@ubuntu.com>  Tue, 02 Nov 2010 19:26:49 -0400
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 03 Nov 2010 01:41:58 +0100
 
 x11proto-kb (1.0.4-1) unstable; urgency=low
 
