@@ -8,6 +8,9 @@ x11proto-kb (1.0.5-1) UNRELEASED; urgency=low
   [ Robert Hooker ]
   * New upstream release.
 
+  [ Cyril Brulebois ]
+  * Switch from --list-missing to --fail-missing for additional safety.
+
  -- Robert Hooker <sarvatt@ubuntu.com>  Tue, 02 Nov 2010 19:26:49 -0400
 
 x11proto-kb (1.0.4-1) unstable; urgency=low
