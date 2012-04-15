@@ -41,6 +41,8 @@ build-stamp:
 	cd build && \
 	../configure --prefix=/usr --mandir=\$${prefix}/share/man \
 	             --infodir=\$${prefix}/share/info \
+		     --docdir=\$${datadir}/doc/x11proto-kb-dev \
+		     --enable-specs --without-fop --with-xmlto \
 	             $(confflags) CFLAGS="$(CFLAGS)" 
 	cd build && $(MAKE)
 
@@ -77,6 +79,8 @@ binary-indep: build install
 
 	dh_installdocs
 	dh_installman
+	find debian/tmp/usr/share/doc/x11proto-kb-dev -name '*.xml' -delete
+	find debian/tmp/usr/share/doc/x11proto-kb-dev -name '*.db' -delete
 	dh_install --sourcedir=debian/tmp --fail-missing
 	dh_installchangelogs
 	dh_link
