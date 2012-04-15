@@ -9,7 +9,7 @@ Build-Depends:
  xutils-dev (>= 1:7.6+2),
  pkg-config,
 # specs
- xorg-sgml-doctools (>= 1.8),
+ xorg-sgml-doctools (>= 1:1.8),
  xmlto (>= 0.0.22),
  w3m,
 Standards-Version: 3.8.3

@@ -1,3 +1,9 @@
+x11proto-kb (1.0.6-2) UNRELEASED; urgency=low
+
+  * Add missing epoch to xorg-sgml-doctools build-dep.
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 15 Apr 2012 17:29:59 +0200
+
 x11proto-kb (1.0.6-1) unstable; urgency=low
 
   * New upstream release.
