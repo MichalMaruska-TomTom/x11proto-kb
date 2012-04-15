@@ -1,11 +1,11 @@
-x11proto-kb (1.0.6-1) UNRELEASED; urgency=low
+x11proto-kb (1.0.6-1) unstable; urgency=low
 
   * New upstream release.
   * Build and ship the XKB spec.
   * Remove David Nusinow and Andres Salomon from Uploaders.
   * Don't require (fake)root for debian/rules clean.
 
- -- Julien Cristau <jcristau@debian.org>  Sun, 15 Apr 2012 16:30:45 +0200
+ -- Julien Cristau <jcristau@debian.org>  Sun, 15 Apr 2012 17:16:56 +0200
 
 x11proto-kb (1.0.5-2) unstable; urgency=low
 
