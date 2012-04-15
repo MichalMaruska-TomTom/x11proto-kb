@@ -50,9 +50,7 @@ build-stamp:
 
 clean:
 	dh_testdir
-	dh_testroot
 	rm -f build-stamp
-
 	rm -f config.cache config.log config.status
 	rm -f */config.cache */config.log */config.status
 	rm -f conftest* */conftest*
@@ -61,7 +59,6 @@ clean:
 	rm -f aclocal.m4 configure install-sh missing mkinstalldirs
 	rm -f config.guess config.sub
 	find -name Makefile.in -delete
-
 	dh_clean
 
 install: build
