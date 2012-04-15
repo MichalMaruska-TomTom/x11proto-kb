@@ -2,6 +2,7 @@ x11proto-kb (1.0.6-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Build and ship the XKB spec.
+  * Remove David Nusinow and Andres Salomon from Uploaders.
 
  -- Julien Cristau <jcristau@debian.org>  Sun, 15 Apr 2012 16:30:45 +0200
 
