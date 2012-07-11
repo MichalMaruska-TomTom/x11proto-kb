@@ -1,3 +1,7 @@
+build-stamp
+build/
+debian/tmp
+debian/x11proto-kb-dev
 #
 #		X.Org module default exclusion patterns
 #		The next section if for module specific patterns
