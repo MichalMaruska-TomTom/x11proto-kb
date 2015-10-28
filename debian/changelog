@@ -5,6 +5,7 @@ x11proto-kb (1.0.7-1) UNRELEASED; urgency=medium
   * Let uscan verify tarball signatures.
   * Remove Cyril from Uploaders.
   * Switch to dh with dh-autoreconf.
+  * Get rid of debian/xsfbs.
 
  -- Julien Cristau <jcristau@debian.org>  Wed, 28 Oct 2015 11:40:02 +0000
 
