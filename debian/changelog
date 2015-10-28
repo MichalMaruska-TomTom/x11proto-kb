@@ -3,6 +3,7 @@ x11proto-kb (1.0.7-1) UNRELEASED; urgency=medium
   * Team upload.
   * New upstream release.
   * Let uscan verify tarball signatures.
+  * Remove Cyril from Uploaders.
 
  -- Julien Cristau <jcristau@debian.org>  Wed, 28 Oct 2015 11:40:02 +0000
 
