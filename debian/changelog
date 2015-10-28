@@ -1,3 +1,10 @@
+x11proto-kb (1.0.6-3) UNRELEASED; urgency=medium
+
+  * Team upload.
+  * Let uscan verify tarball signatures.
+
+ -- Julien Cristau <jcristau@debian.org>  Wed, 28 Oct 2015 11:37:31 +0000
+
 x11proto-kb (1.0.6-2) unstable; urgency=low
 
   [ Julien Cristau ]
