@@ -1,3 +1,14 @@
+x11proto-kb (1.0.7-1maruska) unstable; urgency=medium
+
+  * requests for plugins
+  * Make the header files C++ friendly
+  * fix for Xserver compilation
+  * comment
+  * gitignore
+  * drop pointer type
+
+ -- Michal Maruska <mmaruska@gmail.com>  Mon, 25 Jan 2016 15:54:54 +0100
+
 x11proto-kb (1.0.7-1) unstable; urgency=medium
 
   * Team upload.
